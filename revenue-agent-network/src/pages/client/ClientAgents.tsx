@@ -707,7 +707,7 @@ function Step3Configuration({ formData, setFormData }: any) {
                 type="number"
                 value={formData.dailyLimit}
                 onChange={(e) => setFormData({ ...formData, dailyLimit: e.target.value })}
-                helperText="Max: 100 prospects per day"
+                hint="Max: 100 prospects per day"
             />
 
             {/* Channels */}

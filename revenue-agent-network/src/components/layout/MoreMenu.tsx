@@ -6,7 +6,7 @@ import {
     X,
     type LucideIcon,
 } from "lucide-react"
-import type { Page } from "@/App"
+import type { Page } from "@/types"
 
 interface MenuItem {
     id: Page
